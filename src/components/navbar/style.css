@@ -7,11 +7,11 @@ nav.navbar {
     color: #fff;
 }
 
-.navbar.nav-logo {
+.navbar .nav-logo {
     display: block;
 }
 
-.navbar .nav-logo > img {
+.navbar .nav-logo a > img {
     width: 5em;
     margin: 0 1em;
 }
@@ -55,6 +55,16 @@ nav.navbar {
     border: none;
     font-size: 14px;
 }
+
+.navbar .nav-button button:hover {
+    background: rgb(248, 214, 103);;
+}
+
+.nav-button button:active {
+    box-shadow: none;
+}
+
+
 
 
 
