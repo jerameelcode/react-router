@@ -9,7 +9,7 @@ export default function Navbar(){
         <>
             <nav className="navbar">
                 <div className="nav-logo">
-                    <a href=""></a><img src={logo} alt="Logo for the page"/>
+                    <a href={Routes.home}><img src={logo} alt="Logo for the page"/></a>
                 </div>
                 <div className="nav-menu">
                     <ul>
