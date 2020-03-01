@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Ubuntu';
+}
+
+.App {
+    background: #4f4f4f;
+    height: 43.3em;
+    width: 100%;
+}
